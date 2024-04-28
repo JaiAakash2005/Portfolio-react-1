@@ -21,7 +21,7 @@ const MyComponent = () => {
             />
             <h6>Communication</h6>
           </div>
-          <div className="col-md-6 col-12 mb-4 ">
+          <div className="col-md-6 col-12 mb-4 circle-container">
             <CircularProgressbar
               value={skill2Progress}
               text={`${skill2Progress}%`}
@@ -31,7 +31,7 @@ const MyComponent = () => {
           </div>
         </div>
         <div className="row container-2">
-          <div className="col-md-6 col-12 ">
+          <div className="col-md-6 col-12 circle-container">
             <CircularProgressbar
               value={skill3Progress}
               text={`${skill3Progress}%`}
@@ -40,7 +40,7 @@ const MyComponent = () => {
             <h6>Problem solving</h6>
           </div>
 
-          <div className="col-md-6 col-12 ">
+          <div className="col-md-6 col-12 circle-container">
             <CircularProgressbar
               value={skill4Progress}
               text={`${skill4Progress}%`}
