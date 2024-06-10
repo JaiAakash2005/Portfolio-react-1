@@ -69,13 +69,25 @@
 
 // export default Projects;
 
-import React from "react";
+import React, { useEffect } from "react";
 import "./Projects.css";
 import OIP from "../assets/OIP.jpeg";
 import OIP2 from "../assets/Designer.png";
 import OIP3 from "../assets/OIP (1).jpeg";
 
 const Projects = () => {
+  useEffect(() => {
+    Effect();
+  }, []);
+  const Effect = () => {
+    ScrollReveal().reveal(".project", {
+      duration: 1000,
+      distance: "70px",
+      easing: "ease-in-out",
+      origin: "bottom",
+      reset: true,
+    });
+  };
   return (
     <div className="project">
       <h1 style={{ overflow: "hidden", padding: "5px", marginTop: "10px" }}>
