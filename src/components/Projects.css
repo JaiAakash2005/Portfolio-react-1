@@ -26,6 +26,7 @@
 
 .project3 {
   object-fit: cover;
+  height: 215px;
 }
 
 .overlay {
@@ -46,7 +47,9 @@
   color: white;
   font-size: 24px;
 }
-
+.img-wrap {
+  margin-top: 19px;
+}
 .image-wrapper:hover .overlay {
   opacity: 1;
 }
@@ -63,9 +66,20 @@
   border-radius: 50%;
   background-color: #59b2f4;
 }
-
+.img4 {
+  width: 330px;
+  margin-top: 8px;
+}
+.calc {
+  height: 250px;
+}
 .arrow-link {
   color: white;
   font-size: 2rem;
   text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .img-stem {
+    width: 400px;
+  }
 }
